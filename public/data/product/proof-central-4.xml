@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="proof-central-4" name="Proof Central 4.0" description="Next generation document proofing system">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="proof-central-4-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="proof-accuracy-4" 
+          name="Advanced Proofing Accuracy" 
+          value="98.2" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Advanced proofing system accuracy" 
+          monthlyTarget="98.0" 
+          annualTarget="99.0" 
+          status="on-track"/>
+      </Metric>
+      <Metric id="proof-central-4-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="proof-accuracy-4-may" 
+          name="Advanced Proofing Accuracy" 
+          value="98.5" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Advanced proofing system accuracy" 
+          monthlyTarget="98.0" 
+          annualTarget="99.0" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="proof-central-4-roadmap-2025" 
+        year="2025"
+        version="4.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/proof-central-4-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="proof-central-4-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="proof-central-4-goal-1-april" 
+            description="Maintain advanced proofing accuracy" 
+            currentState="98.2% accuracy" 
+            targetState="98.0% accuracy" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="proof-central-4-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="proof-central-4-item-1-april" 
+          featurename="Next-Gen Proofing Engine" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Deploy next-generation proofing engine" 
+          source="Proofing Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="proof-central-4-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/proof-central-4-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

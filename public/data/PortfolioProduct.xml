@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductPortal>
+  <Portfolios>
+     <Portfolio id="structuring" name="Structuring">
+      <Products>
+        <Product id="xml-central" name="XML Central" description="" filepath="public/data/product/xml-central.xml" />
+        <Product id="mliflow" name="MLiFlow" description="" filepath="public/data/product/mliflow.xml" />
+      </Products>
+    </Portfolio>
+    <Portfolio id="copy-editing" name="Copy Editing">
+      <Products>
+        <Product id="edit-central" name="Edit Central" description="" filepath="public/data/product/edit-central.xml" />
+        <Product id="ace" name="ACE" description="" filepath="public/data/product/ace.xml" />
+      </Products>
+    </Portfolio>
+    <Portfolio id="graphics" name="Graphics">
+      <Products>
+        <Product id="graphics-central" name="Graphics Central" description="" filepath="public/data/product/graphics-central.xml"  />
+      </Products>
+    </Portfolio>
+    <Portfolio id="proofing" name="Proofing">
+      <Products>
+        <Product id="proof-central-3" name="Proof Central 3.1" description="" filepath="public/data/product/proof-central-3.xml"/>
+        <Product id="proof-central-4" name="Proof Central 4.0" description="" filepath="public/data/product/proof-central-4.xml" />
+      </Products>
+    </Portfolio>
+    <Portfolio id="pagination" name="Pagination">
+      <Products>
+        <Product id="neo-page" name="Neo Page" description="" filepath="public/data/product/neo-page.xml" />
+        <Product id="3b2-indesign" name="3B2 And Indesign" description="" filepath="public/data/product/3b2-indesign.xml" />
+        <Product id="cpc" name="CPC" description=""  filepath="public/data/product/cpc.xml"/>
+        <Product id="latex-lualatex" name="LaTeX And; LuaLaTeX" description="" filepath="public/data/product/latex-lualatex.xml" />
+      </Products>
+    </Portfolio>
+    <Portfolio id="workflow-tools" name="Workflow And Tools">
+      <Products>
+        <Product id="nimble" name="Nimble" description="" filepath="public/data/product/nimble.xml" />
+        <Product id="publisher-central" name="Publisher Central" description="" filepath="public/data/product/publisher-central.xml" />
+        <Product id="pdf" name="PDF" description="" filepath="public/data/product/pdf.xml" />
+        <Product id="deliverables" name="Deliverables" description="" filepath="public/data/product/deliverables.xml" />
+      </Products>
+    </Portfolio>
+   <Portfolio id="cnu" name="Completeness And Usability">
+      <Products>
+        <Product id="igc" name="Integrity Central" description="" filepath="public/data/product/igc.xml" />
+      </Products>
+    </Portfolio>
+  </Portfolios>
+</ProductPortal>

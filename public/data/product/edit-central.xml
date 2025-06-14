@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="edit-central" name="Edit Central" description="Centralized editing platform">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="edit-central-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="edit-central-speed" 
+          name="Edit Processing Speed" 
+          value="93" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Document editing speed metric" 
+          monthlyTarget="95" 
+          annualTarget="97" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="edit-central-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="edit-central-speed-may" 
+          name="Edit Processing Speed" 
+          value="96" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Document editing speed metric" 
+          monthlyTarget="95" 
+          annualTarget="97" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="edit-central-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/edit-central-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="edit-central-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="edit-central-goal-1-april" 
+            description="Improve editing speed" 
+            currentState="93% processing speed" 
+            targetState="95% processing speed" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="edit-central-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="edit-central-item-1-april" 
+          featurename="Editor Performance Enhancement" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Enhance editor performance and speed" 
+          source="Product Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="edit-central-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/edit-central-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="igc" name="Integrity Central" description="Data integrity and quality management system">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="igc-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="igc-integrity" 
+          name="Data Integrity Score" 
+          value="99.1" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Overall data integrity score" 
+          monthlyTarget="99.0" 
+          annualTarget="99.5" 
+          status="on-track"/>
+      </Metric>
+      <Metric id="igc-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="igc-integrity-may" 
+          name="Data Integrity Score" 
+          value="99.3" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Overall data integrity score" 
+          monthlyTarget="99.0" 
+          annualTarget="99.5" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="igc-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/igc-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="igc-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="igc-goal-1-april" 
+            description="Maintain high data integrity" 
+            currentState="99.1% integrity score" 
+            targetState="99.0% integrity score" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="igc-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="igc-item-1-april" 
+          featurename="Quality Monitoring Enhancement" 
+          category="Enhancement" 
+          priority="Medium" 
+          status="completed" 
+          description="Enhance data quality monitoring capabilities" 
+          source="Quality Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="igc-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/igc-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="3b2-indesign" name="3B2 And Indesign" description="Integration platform for 3B2 and InDesign workflows">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="3b2-indesign-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="3b2-integration" 
+          name="Integration Efficiency" 
+          value="92" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="3B2 InDesign integration efficiency" 
+          monthlyTarget="94" 
+          annualTarget="96" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="3b2-indesign-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="3b2-integration-may" 
+          name="Integration Efficiency" 
+          value="94" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="3B2 InDesign integration efficiency" 
+          monthlyTarget="94" 
+          annualTarget="96" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="3b2-indesign-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/3b2-indesign-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="3b2-indesign-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="3b2-indesign-goal-1-april" 
+            description="Improve integration efficiency" 
+            currentState="92% integration efficiency" 
+            targetState="94% integration efficiency" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="3b2-indesign-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="3b2-indesign-item-1-april" 
+          featurename="Workflow Integration Enhancement" 
+          category="Enhancement" 
+          priority="Medium" 
+          status="completed" 
+          description="Enhance 3B2 and InDesign workflow integration" 
+          source="Integration Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="3b2-indesign-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/3b2-indesign-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

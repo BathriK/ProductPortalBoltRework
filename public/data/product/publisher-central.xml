@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="publisher-central" name="Publisher Central" description="Centralized publishing platform">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="publisher-central-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="publisher-efficiency" 
+          name="Publishing Efficiency" 
+          value="90" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Overall publishing efficiency" 
+          monthlyTarget="92" 
+          annualTarget="95" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="publisher-central-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="publisher-efficiency-may" 
+          name="Publishing Efficiency" 
+          value="93" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Overall publishing efficiency" 
+          monthlyTarget="92" 
+          annualTarget="95" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="publisher-central-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/publisher-central-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="publisher-central-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="publisher-central-goal-1-april" 
+            description="Improve publishing efficiency" 
+            currentState="90% efficiency" 
+            targetState="92% efficiency" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="publisher-central-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="publisher-central-item-1-april" 
+          featurename="Publishing Pipeline Optimization" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Optimize publishing pipeline for better efficiency" 
+          source="Publishing Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="publisher-central-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/publisher-central-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

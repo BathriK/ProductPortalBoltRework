@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="mliflow" name="MLiFlow" description="MLIFLOW system">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="mliflow-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="milflow-efficiency-april" 
+          name="Workflow Efficiency" 
+          value="87" 
+          unit="%" 
+          timestamp="2025-04-30T23:59:59Z" 
+          description="Overall workflow efficiency metric for April" 
+          monthlyTarget="88.5" 
+          annualTarget="105.0" 
+          status="on-track"/>
+        <MetricItem 
+          id="metric-april-satisfaction-milflow" 
+          name="User Satisfaction" 
+          value="4.1" 
+          unit="out of 5" 
+          timestamp="2025-04-30T23:59:59Z" 
+          description="Average user satisfaction score for April" 
+          monthlyTarget="4.2" 
+          annualTarget="5.3" 
+          status="on-track"/>
+        <MetricItem 
+          id="metric-april-uptime-milflow" 
+          name="System Uptime" 
+          value="99.7" 
+          unit="%" 
+          timestamp="2025-04-30T23:59:59Z" 
+          description="System availability percentage for April" 
+          monthlyTarget="99.85" 
+          annualTarget="101.5" 
+          status="on-track"/>
+      </Metric>
+      <Metric id="mliflow-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="metric-may-satisfaction-milflow" 
+          name="User Satisfaction" 
+          value="4.3" 
+          unit="out of 5" 
+          timestamp="2025-05-31T23:59:59Z" 
+          description="Average user satisfaction score for May" 
+          monthlyTarget="4.4" 
+          annualTarget="5.5" 
+          status="on-track"/>
+        <MetricItem 
+          id="metric-may-uptime-milflow" 
+          name="System Uptime" 
+          value="99.9" 
+          unit="%" 
+          timestamp="2025-05-31T23:59:59Z" 
+          description="System availability percentage for May" 
+          monthlyTarget="100.0" 
+          annualTarget="101.1" 
+          status="on-track"/>
+        <MetricItem 
+          id="metric-may-efficiency-milflow" 
+          name="Workflow Efficiency" 
+          value="89" 
+          unit="%" 
+          timestamp="2025-05-31T23:59:59Z" 
+          description="Overall workflow efficiency for May" 
+          monthlyTarget="90.0" 
+          annualTarget="102.0" 
+          status="on-track"/>
+      </Metric>
+      <Metric id="mliflow-metrics-june-2025" month="6" year="2025" createdAt="2025-06-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="metric-june-satisfaction-milflow" 
+          name="User Satisfaction" 
+          value="4.4" 
+          unit="out of 5" 
+          timestamp="2025-06-30T23:59:59Z" 
+          description="Average user satisfaction score for June" 
+          monthlyTarget="4.45" 
+          annualTarget="5.0" 
+          status="on-track"/>
+        <MetricItem 
+          id="metric-june-uptime-milflow" 
+          name="System Uptime" 
+          value="99.8" 
+          unit="%" 
+          timestamp="2025-06-30T23:59:59Z" 
+          description="System availability percentage for June" 
+          monthlyTarget="99.75" 
+          annualTarget="99.2" 
+          status="off-track"/>
+        <MetricItem 
+          id="metric-june-efficiency-milflow" 
+          name="Workflow Efficiency" 
+          value="91" 
+          unit="%" 
+          timestamp="2025-06-30T23:59:59Z" 
+          description="Overall workflow efficiency for June" 
+          monthlyTarget="90.0" 
+          annualTarget="101.0" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="milflow-2025-roadmap" 
+        year="2025"
+        version="3.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://example.com/mliflow-roadmap-2025.pdf"/>
+      <Roadmap 
+        id="milflow-2025-q2-roadmap" 
+        year="2025"
+        version="3.1" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://example.com/mliflow-roadmap-q2-2025.pdf"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="milflow-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="goal-1-april" 
+            description="Implement enhanced security protocols" 
+            currentState="Planning" 
+            targetState="Implementation Complete"/>
+          <GoalItem 
+            id="goal-2-april" 
+            description="Improve system performance metrics" 
+            currentState="45% efficiency" 
+            targetState="50% efficiency"/>
+        </Goals>
+      </ReleaseGoal>
+      <ReleaseGoal id="milflow-goal-may-2025" month="5" year="2025" createdAt="2025-05-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="goal-1-may" 
+            description="Improve FTR by focusing on AS2TUD and TUDQC modules" 
+            currentState="45%" 
+            targetState="55%"/>
+          <GoalItem 
+            id="goal-2-may" 
+            description="Enhance user satisfaction metrics" 
+            currentState="4.1/5" 
+            targetState="4.4/5"/>
+        </Goals>
+      </ReleaseGoal>
+      <ReleaseGoal id="milflow-goal-june-2025" month="6" year="2025" createdAt="2025-06-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="goal-1-june" 
+            description="Deploy mobile field operations module" 
+            currentState="Development phase" 
+            targetState="Beta testing with select units"/>
+          <GoalItem 
+            id="goal-2-june" 
+            description="Achieve 91% workflow efficiency" 
+            currentState="89%" 
+            targetState="91%"/>
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="plan-april-milflow-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="item-1-april" 
+          featurename="Security Protocol Implementation" 
+          category="Security" 
+          priority="High" 
+          status="completed" 
+          description="Deploy enhanced security measures across all workflows" 
+          source="Compliance" 
+          sourcetype="Internal"/>
+        <ReleasePlanItem 
+          id="item-2-april" 
+          featurename="Performance Monitoring Dashboard" 
+          category="Enhancement" 
+          priority="Medium" 
+          status="completed" 
+          description="New dashboard for real-time performance monitoring" 
+          source="Operations" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+      <ReleasePlan id="plan-may-milflow-2025" month="5" year="2025" createdAt="2025-05-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="item-1-may" 
+          featurename="AS2TUD Module Optimization" 
+          category="Enhancement" 
+          priority="High" 
+          status="in-progress" 
+          description="Focus on improving FTR for CellPress by analyzing and resolving frequent parser errors" 
+          source="Operations" 
+          sourcetype="Internal"/>
+        <ReleasePlanItem 
+          id="item-2-may" 
+          featurename="User Experience Improvements" 
+          category="Enhancement" 
+          priority="Medium" 
+          status="completed" 
+          description="UI/UX improvements based on user feedback" 
+          source="Customer" 
+          sourcetype="External"/>
+      </ReleasePlan>
+      <ReleasePlan id="plan-june-milflow-2025" month="6" year="2025" createdAt="2025-06-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="item-1-june" 
+          featurename="Mobile Platform Beta" 
+          category="Enhancement" 
+          priority="Medium" 
+          status="planned" 
+          description="Launch beta version of mobile field operations platform" 
+          source="Strategic Initiative" 
+          sourcetype="Internal"/>
+        <ReleasePlanItem 
+          id="item-2-june" 
+          featurename="Advanced Analytics Module" 
+          category="Enhancement" 
+          priority="High" 
+          status="in-progress" 
+          description="Enhanced analytics capabilities for workflow optimization" 
+          source="Market" 
+          sourcetype="External"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="note-april-milflow-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://example.com/mliflow-release-notes-april-2025.pdf"/>
+      <ReleaseNote 
+        id="note-may-milflow-2025" 
+        month="5" 
+        year="2025" 
+        createdAt="2025-05-31T18:00:00Z" 
+        version="1" 
+        link="https://example.com/mliflow-release-notes-may-2025.pdf"/>
+      <ReleaseNote 
+        id="note-june-milflow-2025" 
+        month="6" 
+        year="2025" 
+        createdAt="2025-06-30T18:00:00Z" 
+        version="1" 
+        link="https://example.com/mliflow-release-notes-june-2025.pdf"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

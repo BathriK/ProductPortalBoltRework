@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="proof-central-3" name="Proof Central 3.1" description="Document proofing system version 3.1">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="proof-central-3-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="proof-accuracy-3" 
+          name="Proofing Accuracy" 
+          value="96.8" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Document proofing accuracy" 
+          monthlyTarget="97.0" 
+          annualTarget="98.0" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="proof-central-3-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="proof-accuracy-3-may" 
+          name="Proofing Accuracy" 
+          value="97.5" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Document proofing accuracy" 
+          monthlyTarget="97.0" 
+          annualTarget="98.0" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="proof-central-3-roadmap-2025" 
+        year="2025"
+        version="3.1" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/proof-central-3-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="proof-central-3-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="proof-central-3-goal-1-april" 
+            description="Improve proofing accuracy" 
+            currentState="96.8% accuracy" 
+            targetState="97.0% accuracy" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="proof-central-3-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="proof-central-3-item-1-april" 
+          featurename="Accuracy Algorithm Enhancement" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Enhance proofing accuracy algorithms" 
+          source="Proofing Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="proof-central-3-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/proof-central-3-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

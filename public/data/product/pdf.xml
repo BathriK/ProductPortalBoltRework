@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="pdf" name="PDF" description="PDF processing and management system">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="pdf-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="pdf-processing" 
+          name="PDF Processing Speed" 
+          value="93" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="PDF processing and conversion speed" 
+          monthlyTarget="95" 
+          annualTarget="98" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="pdf-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="pdf-processing-may" 
+          name="PDF Processing Speed" 
+          value="95" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="PDF processing and conversion speed" 
+          monthlyTarget="95" 
+          annualTarget="98" 
+          status="on-track"/>
+      </Metric>
+      <Metric id="pdf-metrics-june-2025" month="6" year="2025" createdAt="2025-06-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="pdf-processing-june" 
+          name="PDF Processing Speed" 
+          value="97" 
+          unit="%" 
+          timestamp="2025-06-01T10:00:00Z" 
+          description="PDF processing and conversion speed" 
+          monthlyTarget="95" 
+          annualTarget="98" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="pdf-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/pdf-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="pdf-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="pdf-goal-1-april" 
+            description="Improve PDF processing speed" 
+            currentState="93% processing efficiency" 
+            targetState="95% processing efficiency" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="pdf-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="pdf-item-1-april" 
+          featurename="Processing Optimization" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Optimize PDF processing algorithms" 
+          source="Performance Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="pdf-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/pdf-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

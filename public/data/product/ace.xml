@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product id="ace" name="ACE" description="Advanced Copy Editing system">
+  <Metrics>
+    <Metric id="ace-accuracy" name="Copy Edit Accuracy" value="98.5" previousValue="97.8" unit="%" timestamp="2025-04-01T10:00:00Z" description="Copy editing accuracy rate" month="4" year="2025" source="Quality" category="Accuracy" owner="Editorial Team"/>
+    <Metric id="metric-april-satisfaction-ace" name="User Satisfaction" value="4.1" previousValue="3.9" unit="out of 5" timestamp="2025-04-30T23:59:59.000Z" description="Average user satisfaction score for April" month="4" year="2025" source="Survey" category="Satisfaction" owner="Product Team"/>
+    <Metric id="metric-april-uptime-ace" name="System Uptime" value="99.7" previousValue="99.4" unit="%" timestamp="2025-04-30T23:59:59.000Z" description="System availability percentage for April" month="4" year="2025" source="Monitoring" category="Reliability" owner="Operations Team"/>
+    <Metric id="metric-may-satisfaction-ace" name="User Satisfaction" value="4.3" previousValue="4.1" unit="out of 5" timestamp="2025-05-31T23:59:59.000Z" description="Average user satisfaction score for May" month="5" year="2025" source="Survey" category="Satisfaction" owner="Product Team"/>
+    <Metric id="metric-may-uptime-ace" name="System Uptime" value="99.9" previousValue="99.7" unit="%" timestamp="2025-05-31T23:59:59.000Z" description="System availability percentage for May" month="5" year="2025" source="Monitoring" category="Reliability" owner="Operations Team"/>
+    <Metric id="metric-june-satisfaction-ace" name="User Satisfaction" value="4.5" previousValue="4.3" unit="out of 5" timestamp="2025-06-30T23:59:59.000Z" description="Average user satisfaction score for June" month="6" year="2025" source="Survey" category="Satisfaction" owner="Product Team"/>
+    <Metric id="metric-june-uptime-ace" name="System Uptime" value="99.8" previousValue="99.9" unit="%" timestamp="2025-06-30T23:59:59.000Z" description="System availability percentage for June" month="6" year="2025" source="Monitoring" category="Reliability" owner="Operations Team"/>
+    <Metric id="metric-june-accuracy-ace" name="Copy Edit Accuracy" value="98.7" previousValue="98.5" unit="%" timestamp="2025-06-30T23:59:59.000Z" description="Copy editing accuracy rate for June" month="6" year="2025" source="Quality" category="Accuracy" owner="Editorial Team"/>
+  </Metrics>
+  <Roadmaps>
+    <Roadmap id="roadmap-ace-2025" year="2025" quarter="2" title="Enhanced Copy Editing Features" description="Advanced AI-powered copy editing capabilities" status="in-progress" createdAt="2025-01-14T18:30:00.000Z" version="1.0" link="https://docs.google.com/spreadsheets/d/roadmap-ace"/>
+    <Roadmap id="roadmap-ace-2024" year="2024" quarter="4" title="Foundation Release" description="Core copy editing functionality" status="completed" createdAt="2024-01-14T18:30:00.000Z" version="0.9" link="https://docs.google.com/spreadsheets/d/roadmap-ace"/>
+  </Roadmaps>
+  <ReleaseGoals>
+    <ReleaseGoal id="goal-april-ace" month="4" year="2025" description="Improve user onboarding experience" currentState="New users face difficulties during initial setup" targetState="Streamlined onboarding with guided tutorials" status="completed" createdAt="2025-04-01T09:00:00.000Z" version="1" owner="UX Team" priority="High" category="User Experience"/>
+    <ReleaseGoal id="goal-may-ace" month="5" year="2025" description="Implement advanced search functionality" currentState="Basic search with limited filtering options" targetState="Advanced search with multiple filters and sorting" status="in-progress" createdAt="2025-05-01T09:00:00.000Z" version="1" owner="Frontend Team" priority="Medium" category="Feature"/>
+    <ReleaseGoal id="goal-june-ace" month="6" year="2025" description="Enhance AI-powered suggestions" currentState="Basic grammar and style suggestions" targetState="Context-aware AI suggestions with domain expertise" status="planned" createdAt="2025-06-01T09:00:00.000Z" version="1" owner="AI Team" priority="High" category="AI/ML"/>
+  </ReleaseGoals>
+  <ReleasePlans>
+    <ReleasePlan id="plan-april-ace" month="4" year="2025" title="Onboarding Enhancement" description="Develop interactive tutorials for new users" category="UX" priority="High" source="User Feedback" targetDate="2025-04-15T00:00:00.000Z" owner="UX Team" status="completed" createdAt="2025-04-01T09:00:00.000Z" version="1"/>
+    <ReleasePlan id="plan-may-ace" month="5" year="2025" title="Advanced Search Implementation" description="Build comprehensive search with filters and AI-powered suggestions" category="Feature" priority="Medium" source="Product Roadmap" targetDate="2025-05-20T00:00:00.000Z" owner="Frontend Team" status="in-progress" createdAt="2025-05-01T09:00:00.000Z" version="1"/>
+    <ReleasePlan id="plan-june-ace" month="6" year="2025" title="AI Enhancement Phase 1" description="Implement context-aware AI suggestions for copy editing" category="AI/ML" priority="High" source="Strategic Initiative" targetDate="2025-06-30T00:00:00.000Z" owner="AI Team" status="planned" createdAt="2025-06-01T09:00:00.000Z" version="1"/>
+  </ReleasePlans>
+  <ReleaseNotes>
+    <ReleaseNote id="note-april-ace" month="4" year="2025" title="ACE v2.1 - Enhanced Onboarding" description="Major improvements in user onboarding and system performance" type="feature" highlights="Successfully launched new onboarding system and improved system performance by 30%" createdAt="2025-04-30T18:00:00.000Z" version="1" link="https://docs.google.com/spreadsheets/d/roadmap-ace"/>
+    <ReleaseNote id="note-may-ace" month="5" year="2025" title="ACE v2.2 - Advanced Search" description="Advanced search capabilities and mobile optimization" type="feature" highlights="Rolled out advanced search capabilities and began mobile optimization initiative" createdAt="2025-05-31T18:00:00.000Z" version="1" link="https://docs.google.com/spreadsheets/d/roadmap-ace"/>
+    <ReleaseNote id="note-june-ace" month="6" year="2025" title="ACE v2.3 - AI Enhancements" description="Initial AI-powered copy editing suggestions" type="feature" highlights="Launched AI-powered suggestions with 25% improvement in editing accuracy" createdAt="2025-06-30T18:00:00.000Z" version="1" link="https://docs.google.com/spreadsheets/d/roadmap-ace"/>
+  </ReleaseNotes>
+</Product>

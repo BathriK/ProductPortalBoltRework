@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="xml-central" name="XML Central" description="XML processing and management system">
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="xml-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="xml-adoption-rate" 
+          name="Adoption Rate" 
+          value="30" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="XML system adoption rate" 
+          monthlyTarget="" 
+          annualTarget="" 
+          status="on-track"/>
+        <MetricItem 
+          id="xml-delivery" 
+          name="XML Delivery" 
+          value="60" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="XML delivery performance" 
+          monthlyTarget="" 
+          annualTarget="" 
+          status="on-track"/>
+        <MetricItem 
+          id="link-wait-time" 
+          name="Link Wait time" 
+          value="120" 
+          unit="secs" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Average link wait time" 
+          monthlyTarget="" 
+          annualTarget="" 
+          status="on-track"/>
+        <MetricItem 
+          id="user-satisfaction" 
+          name="User Satisfaction" 
+          value="4.1" 
+          unit="out of 5" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="User satisfaction rating" 
+          monthlyTarget="" 
+          annualTarget="" 
+          status="on-track"/>
+        <MetricItem 
+          id="system-uptime" 
+          name="System Uptime" 
+          value="99.7" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="System uptime percentage" 
+          monthlyTarget="" 
+          annualTarget="" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="xml-central-roadmap-2025" 
+        year="2025"
+        version="2.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/xml-central-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="xml-central-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="xml-central-goal-1-april" 
+            description="Improve XML processing efficiency" 
+            currentState="Current processing capabilities" 
+            targetState="Enhanced processing performance" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="xml-central-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="xml-central-item-1-april" 
+          featurename="XML Processing Enhancement" 
+          category="Enhancement" 
+          priority="High" 
+          status="in-progress" 
+          description="Enhance XML processing capabilities" 
+          source="XML Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="xml-central-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="3" 
+        link="https://docs.google.com/document/d/xml-central-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

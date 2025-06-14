@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="cpc" name="CPC" description="Composition Processing Center">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="cpc-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="cpc-throughput" 
+          name="Processing Throughput" 
+          value="94" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Document processing throughput" 
+          monthlyTarget="95" 
+          annualTarget="97" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="cpc-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="cpc-throughput-may" 
+          name="Processing Throughput" 
+          value="96" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Document processing throughput" 
+          monthlyTarget="95" 
+          annualTarget="97" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="cpc-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/cpc-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="cpc-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="cpc-goal-1-april" 
+            description="Increase processing throughput" 
+            currentState="94% throughput efficiency" 
+            targetState="95% throughput efficiency" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="cpc-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="cpc-item-1-april" 
+          featurename="Throughput Enhancement" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Enhance document processing throughput" 
+          source="Operations Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="cpc-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/cpc-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

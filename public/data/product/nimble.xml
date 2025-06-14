@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="nimble" name="Nimble" description="Agile workflow management tool">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="nimble-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="nimble-agility" 
+          name="Workflow Agility" 
+          value="88" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Workflow agility and responsiveness" 
+          monthlyTarget="90" 
+          annualTarget="95" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="nimble-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="nimble-agility-may" 
+          name="Workflow Agility" 
+          value="91" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Workflow agility and responsiveness" 
+          monthlyTarget="90" 
+          annualTarget="95" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="nimble-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/nimble-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="nimble-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="nimble-goal-1-april" 
+            description="Improve workflow agility" 
+            currentState="88% agility score" 
+            targetState="90% agility score" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="nimble-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="nimble-item-1-april" 
+          featurename="Workflow Optimization" 
+          category="Enhancement" 
+          priority="Medium" 
+          status="in-progress" 
+          description="Optimize workflow processes for better agility" 
+          source="Workflow Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="nimble-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/nimble-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

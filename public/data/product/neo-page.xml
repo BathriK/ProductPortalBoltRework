@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="neo-page" name="Neo Page" description="Modern page layout and design system">
+    
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="neo-page-metrics-april-2025" month="4" year="2025" createdAt="2025-04-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="neo-layout-speed" 
+          name="Layout Generation Speed" 
+          value="89" 
+          unit="%" 
+          timestamp="2025-04-01T10:00:00Z" 
+          description="Page layout generation speed" 
+          monthlyTarget="92" 
+          annualTarget="95" 
+          status="at-risk"/>
+      </Metric>
+      <Metric id="neo-page-metrics-may-2025" month="5" year="2025" createdAt="2025-05-01T10:00:00Z" version="1">
+        <MetricItem 
+          id="neo-layout-speed-may" 
+          name="Layout Generation Speed" 
+          value="93" 
+          unit="%" 
+          timestamp="2025-05-01T10:00:00Z" 
+          description="Page layout generation speed" 
+          monthlyTarget="92" 
+          annualTarget="95" 
+          status="on-track"/>
+      </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="neo-page-roadmap-2025" 
+        year="2025"
+        version="1.0" 
+        createdAt="2025-04-01T09:00:00Z"
+        link="https://docs.google.com/document/d/neo-page-roadmap-2025"/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="neo-page-goal-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <Goals>
+          <GoalItem 
+            id="neo-page-goal-1-april" 
+            description="Improve layout generation speed" 
+            currentState="89% generation efficiency" 
+            targetState="92% generation efficiency" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="neo-page-plan-april-2025" month="4" year="2025" createdAt="2025-04-01T09:00:00Z" version="1">
+        <ReleasePlanItem 
+          id="neo-page-item-1-april" 
+          featurename="Layout Engine Enhancement" 
+          category="Enhancement" 
+          priority="High" 
+          status="completed" 
+          description="Enhance layout generation engine" 
+          source="Layout Team" 
+          sourcetype="Internal"/>
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="neo-page-note-april-2025" 
+        month="4" 
+        year="2025" 
+        createdAt="2025-04-30T18:00:00Z" 
+        version="1" 
+        link="https://docs.google.com/document/d/neo-page-release-notes-april-2025"/>
+    </ReleaseNotes>
+  </Product>
+</Products>

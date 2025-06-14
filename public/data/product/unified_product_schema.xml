@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product id="" name="" description="">
+
+    <!-- Metrics Section -->
+    <Metrics>
+      <Metric id="" month="" year="" createdAt="" version="">
+
+	<MetricItem 
+	  id="" 
+	  name="" 
+	  value="" 
+	  unit="" 
+	  timestamp="" 
+	  description="" 
+	  monthlyTarget="" 
+	  annualTarget="" 
+	  status=""
+	  />
+	  </Metric>
+    </Metrics>
+
+    <!-- Roadmaps Section -->
+    <Roadmaps>
+      <Roadmap 
+        id="" 
+		year=""
+        version="" 
+		createdAt=""
+        link=""/>
+    </Roadmaps>
+
+    <!-- Release Goals Section -->
+    <ReleaseGoals>
+      <ReleaseGoal id="" month="" year="" createdAt="" version="">
+        <Goals>
+          <GoalItem 
+            id="" 
+            description="" 
+            currentState="" 
+            targetState="" />
+        </Goals>
+      </ReleaseGoal>
+    </ReleaseGoals>
+
+    <!-- Release Plans Section -->
+    <ReleasePlans>
+      <ReleasePlan id="" month="" year="" createdAt="" version="">
+	  <ReleasePlanItem 
+		  id="" 
+		  featurename="" 
+		  category="" 
+		  priority="" 
+		  status="" 
+		  description="" 
+		  source="" 
+		  sourcetype=""
+		  />
+      </ReleasePlan>
+    </ReleasePlans>
+
+    <!-- Release Notes Section -->
+    <ReleaseNotes>
+      <ReleaseNote 
+        id="" 
+        month="" 
+        year="" 
+        createdAt="" 
+        version="" 
+        link=""/>
+    </ReleaseNotes>
+  </Product>
+</Products>

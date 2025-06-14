@@ -1,0 +1,281 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<productPortalConfig>
+  <portfolios>
+    <portfolio id="editorial-solutions" name="Editorial Solutions" description="Comprehensive editorial workflow and content management tools">
+      <products>
+        <product id="xml-central" name="XML Central" description="Advanced XML processing and management platform">
+          <metrics>
+            <!-- April 2025 Metrics -->
+            <metric id="xml-speed-apr-2025" name="XML Processing Speed" value="1850" unit="docs/hour" target="2000" month="4" year="2025" status="on-track" notes="Performance improvements showing results" timestamp="2025-04-15T10:00:00Z" description="XML document processing throughput" />
+            <metric id="xml-accuracy-apr-2025" name="Parser Accuracy" value="98.5" unit="%" target="99" month="4" year="2025" status="on-track" notes="Parser engine optimizations effective" timestamp="2025-04-15T10:00:00Z" description="XML parsing accuracy rate" />
+            <metric id="xml-uptime-apr-2025" name="System Uptime" value="99.1" unit="%" target="99.5" month="4" year="2025" status="at-risk" notes="Minor stability issues resolved" timestamp="2025-04-15T10:00:00Z" description="System availability percentage" />
+            <!-- May 2025 Metrics -->
+            <metric id="xml-speed-may-2025" name="XML Processing Speed" value="2120" unit="docs/hour" target="2000" month="5" year="2025" status="on-track" notes="Exceeded target performance" timestamp="2025-05-15T10:00:00Z" description="XML document processing throughput" />
+            <metric id="xml-accuracy-may-2025" name="Parser Accuracy" value="99.2" unit="%" target="99" month="5" year="2025" status="on-track" notes="Parser optimization completed" timestamp="2025-05-15T10:00:00Z" description="XML parsing accuracy rate" />
+            <metric id="xml-uptime-may-2025" name="System Uptime" value="99.7" unit="%" target="99.5" month="5" year="2025" status="on-track" notes="Stability improvements implemented" timestamp="2025-05-15T10:00:00Z" description="System availability percentage" />
+          </metrics>
+          <releaseGoals>
+            <!-- April 2025 Goals -->
+            <releaseGoal id="xml-goals-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Goals" createdAt="2025-04-01T09:00:00Z">
+              <goals>
+                <goalItem id="xml-goal-1-apr" description="Optimize XML parsing engine for better performance" currentState="Processing 1000 docs/hour with high memory usage" targetState="Processing 2000 docs/hour with 50% less memory" status="planned" />
+                <goalItem id="xml-goal-2-apr" description="Implement advanced error handling and recovery" currentState="Basic error reporting" targetState="Comprehensive error recovery with detailed diagnostics" status="planned" />
+                <goalItem id="xml-goal-3-apr" description="Add support for XML Schema 1.1" currentState="XML Schema 1.0 support only" targetState="Full XML Schema 1.1 compliance" status="planned" />
+              </goals>
+            </releaseGoal>
+            <!-- May 2025 Goals -->
+            <releaseGoal id="xml-goals-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Goals" createdAt="2025-05-01T09:00:00Z">
+              <goals>
+                <goalItem id="xml-goal-1-may" description="Implement real-time XML validation" currentState="Batch validation only" targetState="Real-time validation with instant feedback" status="in-progress" />
+                <goalItem id="xml-goal-2-may" description="Add XML transformation pipeline" currentState="No transformation capabilities" targetState="XSLT and custom transformation support" status="planned" />
+                <goalItem id="xml-goal-3-may" description="Enhance security features" currentState="Basic input validation" targetState="Advanced security with threat detection" status="planned" />
+              </goals>
+            </releaseGoal>
+          </releaseGoals>
+          <releasePlans>
+            <!-- April 2025 Plan -->
+            <releasePlan id="xml-plan-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Plan" createdAt="2025-04-01T09:00:00Z">
+              <items>
+                <planItem id="xml-plan-1-apr" title="Parser Engine Refactoring" description="Rewrite core parsing logic for better performance and memory usage" category="Enhancement" priority="High" source="Internal" owner="Backend Team" status="in-progress" targetDate="2025-04-30T17:00:00Z" />
+                <planItem id="xml-plan-2-apr" title="Error Handling Framework" description="Implement comprehensive error handling and recovery system" category="Enhancement" priority="Medium" source="Customer" owner="Quality Team" status="planned" targetDate="2025-04-25T17:00:00Z" />
+                <planItem id="xml-plan-3-apr" title="Schema 1.1 Support" description="Add support for XML Schema 1.1 features" category="Enhancement" priority="Medium" source="Market" owner="Standards Team" status="planned" targetDate="2025-04-28T17:00:00Z" />
+                <planItem id="xml-plan-4-apr" title="Performance Testing Suite" description="Develop comprehensive performance testing framework" category="Improvement" priority="Low" source="Internal" owner="Test Team" status="planned" targetDate="2025-04-20T17:00:00Z" />
+              </items>
+            </releasePlan>
+            <!-- May 2025 Plan -->
+            <releasePlan id="xml-plan-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Plan" createdAt="2025-05-01T09:00:00Z">
+              <items>
+                <planItem id="xml-plan-1-may" title="Real-time Validation Engine" description="Build real-time XML validation with instant feedback" category="Enhancement" priority="High" source="Customer" owner="Validation Team" status="in-progress" targetDate="2025-05-31T17:00:00Z" />
+                <planItem id="xml-plan-2-may" title="XSLT Processor Integration" description="Integrate XSLT transformation capabilities" category="Enhancement" priority="Medium" source="Market" owner="Transform Team" status="planned" targetDate="2025-05-28T17:00:00Z" />
+                <planItem id="xml-plan-3-may" title="Security Enhancement Module" description="Implement advanced security features with threat detection" category="Enhancement" priority="High" source="Regulatory" owner="Security Team" status="planned" targetDate="2025-05-25T17:00:00Z" />
+                <planItem id="xml-plan-4-may" title="API Rate Limiting" description="Implement rate limiting for XML processing API" category="Improvement" priority="Medium" source="Internal" owner="API Team" status="planned" targetDate="2025-05-15T17:00:00Z" />
+                <planItem id="xml-plan-5-may" title="Documentation Update" description="Update API and user documentation" category="Clarification" priority="Low" source="Internal" owner="Docs Team" status="planned" targetDate="2025-05-10T17:00:00Z" />
+              </items>
+            </releasePlan>
+          </releasePlans>
+          <releaseNotes>
+            <releaseNote id="xml-notes-apr-2025-v1" month="4" year="2025" version="1" link="https://docs.xmlcentral.com/releases/april-2025" highlights="Major performance improvements and enhanced error handling" createdAt="2025-04-30T18:00:00Z">
+              <details>
+                <detail>Improved XML parsing speed by 85%</detail>
+                <detail>Enhanced error reporting with detailed diagnostics</detail>
+                <detail>Added preliminary XML Schema 1.1 support</detail>
+                <detail>Fixed memory leaks in large document processing</detail>
+              </details>
+            </releaseNote>
+            <releaseNote id="xml-notes-may-2025-v1" month="5" year="2025" version="1" link="https://docs.xmlcentral.com/releases/may-2025" highlights="Real-time validation and transformation features" createdAt="2025-05-31T18:00:00Z">
+              <details>
+                <detail>Launched real-time XML validation feature</detail>
+                <detail>Integrated XSLT transformation pipeline</detail>
+                <detail>Enhanced security with threat detection</detail>
+                <detail>Improved API performance and stability</detail>
+              </details>
+            </releaseNote>
+          </releaseNotes>
+        </product>
+        
+        <product id="mliflow" name="MliFlow" description="Mathematical content processing and LaTeX workflow management">
+          <metrics>
+            <!-- April 2025 Metrics -->
+            <metric id="mli-accuracy-apr-2025" name="Mathematical Formula Accuracy" value="94.2" unit="%" target="97" month="4" year="2025" status="at-risk" notes="Complex formulas need improvement" timestamp="2025-04-15T10:00:00Z" description="Mathematical expression parsing accuracy" />
+            <metric id="mli-speed-apr-2025" name="Rendering Speed" value="1.8" unit="seconds" target="1.0" month="4" year="2025" status="at-risk" notes="Performance optimization in progress" timestamp="2025-04-15T10:00:00Z" description="Formula rendering time" />
+            <metric id="mli-satisfaction-apr-2025" name="User Satisfaction" value="4.1" unit="out of 5" target="4.5" month="4" year="2025" status="on-track" notes="Users appreciate recent improvements" timestamp="2025-04-15T10:00:00Z" description="User satisfaction score" />
+            <!-- May 2025 Metrics -->
+            <metric id="mli-accuracy-may-2025" name="Mathematical Formula Accuracy" value="96.8" unit="%" target="97" month="5" year="2025" status="on-track" notes="Significant accuracy improvements" timestamp="2025-05-15T10:00:00Z" description="Mathematical expression parsing accuracy" />
+            <metric id="mli-speed-may-2025" name="Rendering Speed" value="1.3" unit="seconds" target="1.0" month="5" year="2025" status="on-track" notes="Performance optimizations working" timestamp="2025-05-15T10:00:00Z" description="Formula rendering time" />
+            <metric id="mli-satisfaction-may-2025" name="User Satisfaction" value="4.4" unit="out of 5" target="4.5" month="5" year="2025" status="on-track" notes="Users happy with new features" timestamp="2025-05-15T10:00:00Z" description="User satisfaction score" />
+          </metrics>
+          <releaseGoals>
+            <!-- April 2025 Goals -->
+            <releaseGoal id="mli-goals-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Goals" createdAt="2025-04-01T09:00:00Z">
+              <goals>
+                <goalItem id="mli-goal-1-apr" description="Improve LaTeX compatibility to 95%" currentState="85% LaTeX command support" targetState="95% LaTeX command support with advanced features" status="in-progress" />
+                <goalItem id="mli-goal-2-apr" description="Reduce formula rendering time" currentState="2.5 second average render time" targetState="1 second average render time" status="planned" />
+                <goalItem id="mli-goal-3-apr" description="Add MathJax 3.0 integration" currentState="MathJax 2.7 support" targetState="Full MathJax 3.0 support with improved performance" status="planned" />
+              </goals>
+            </releaseGoal>
+            <!-- May 2025 Goals -->
+            <releaseGoal id="mli-goals-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Goals" createdAt="2025-05-01T09:00:00Z">
+              <goals>
+                <goalItem id="mli-goal-1-may" description="Implement real-time preview feature" currentState="Manual refresh required for preview" targetState="Live preview as you type with syntax highlighting" status="in-progress" />
+                <goalItem id="mli-goal-2-may" description="Add collaborative editing support" currentState="Single-user editing only" targetState="Multi-user collaborative editing with conflict resolution" status="planned" />
+                <goalItem id="mli-goal-3-may" description="Enhance mobile responsiveness" currentState="Desktop-only interface" targetState="Fully responsive mobile and tablet support" status="planned" />
+              </goals>
+            </releaseGoal>
+          </releaseGoals>
+          <releasePlans>
+            <!-- April 2025 Plan -->
+            <releasePlan id="mli-plan-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Plan" createdAt="2025-04-01T09:00:00Z">
+              <items>
+                <planItem id="mli-plan-1-apr" title="LaTeX Parser Enhancement" description="Extend LaTeX command library support to 95%" category="Enhancement" priority="High" source="Customer" owner="Math Engine Team" status="in-progress" targetDate="2025-04-30T17:00:00Z" />
+                <planItem id="mli-plan-2-apr" title="Rendering Performance Optimization" description="Optimize mathematical expression rendering algorithms" category="Improvement" priority="High" source="Internal" owner="Performance Team" status="planned" targetDate="2025-04-25T17:00:00Z" />
+                <planItem id="mli-plan-3-apr" title="MathJax 3.0 Migration" description="Upgrade from MathJax 2.7 to 3.0" category="Enhancement" priority="Medium" source="Market" owner="Frontend Team" status="planned" targetDate="2025-04-28T17:00:00Z" />
+              </items>
+            </releasePlan>
+            <!-- May 2025 Plan -->
+            <releasePlan id="mli-plan-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Plan" createdAt="2025-05-01T09:00:00Z">
+              <items>
+                <planItem id="mli-plan-1-may" title="Real-time Preview Implementation" description="Build live preview functionality with syntax highlighting" category="Enhancement" priority="High" source="Customer" owner="Frontend Team" status="in-progress" targetDate="2025-05-31T17:00:00Z" />
+                <planItem id="mli-plan-2-may" title="Collaborative Editing Framework" description="Implement multi-user collaborative editing" category="Enhancement" priority="Medium" source="Market" owner="Collaboration Team" status="planned" targetDate="2025-05-28T17:00:00Z" />
+                <planItem id="mli-plan-3-may" title="Mobile Responsive Design" description="Make interface fully responsive for mobile devices" category="Enhancement" priority="Medium" source="Customer" owner="UI/UX Team" status="planned" targetDate="2025-05-25T17:00:00Z" />
+                <planItem id="mli-plan-4-may" title="LaTeX Template Library" description="Create comprehensive template library" category="Enhancement" priority="Low" source="Internal" owner="Content Team" status="planned" targetDate="2025-05-15T17:00:00Z" />
+              </items>
+            </releasePlan>
+          </releasePlans>
+        </product>
+
+        <product id="edit-central" name="Edit Central" description="Centralized editorial workflow and content management system">
+          <metrics>
+            <!-- April 2025 Metrics -->
+            <metric id="edit-efficiency-apr-2025" name="Editorial Workflow Efficiency" value="78" unit="%" target="90" month="4" year="2025" status="at-risk" notes="Workflow bottlenecks identified" timestamp="2025-04-15T10:00:00Z" description="Overall editorial process efficiency" />
+            <metric id="edit-cycle-apr-2025" name="Review Cycle Time" value="3.2" unit="days" target="2.0" month="4" year="2025" status="at-risk" notes="Process optimization needed" timestamp="2025-04-15T10:00:00Z" description="Average review cycle duration" />
+            <metric id="edit-satisfaction-apr-2025" name="Editor Satisfaction" value="4.0" unit="out of 5" target="4.5" month="4" year="2025" status="on-track" notes="Positive feedback on new features" timestamp="2025-04-15T10:00:00Z" description="Editor satisfaction rating" />
+            <!-- May 2025 Metrics -->
+            <metric id="edit-efficiency-may-2025" name="Editorial Workflow Efficiency" value="85" unit="%" target="90" month="5" year="2025" status="on-track" notes="Workflow improvements implemented" timestamp="2025-05-15T10:00:00Z" description="Overall editorial process efficiency" />
+            <metric id="edit-cycle-may-2025" name="Review Cycle Time" value="2.8" unit="days" target="2.0" month="5" year="2025" status="on-track" notes="Significant time reduction achieved" timestamp="2025-05-15T10:00:00Z" description="Average review cycle duration" />
+            <metric id="edit-satisfaction-may-2025" name="Editor Satisfaction" value="4.3" unit="out of 5" target="4.5" month="5" year="2025" status="on-track" notes="Editors appreciate automation features" timestamp="2025-05-15T10:00:00Z" description="Editor satisfaction rating" />
+          </metrics>
+          <releaseGoals>
+            <!-- April 2025 Goals -->
+            <releaseGoal id="edit-goals-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Goals" createdAt="2025-04-01T09:00:00Z">
+              <goals>
+                <goalItem id="edit-goal-1-apr" description="Automate review assignment process" currentState="Manual assignment taking 30 minutes per article" targetState="AI-powered automatic assignment in under 2 minutes" status="in-progress" />
+                <goalItem id="edit-goal-2-apr" description="Reduce review cycle time to 2 days" currentState="4.1 day average review cycle" targetState="2 day average review cycle with automated reminders" status="planned" />
+                <goalItem id="edit-goal-3-apr" description="Implement smart content suggestions" currentState="No content assistance features" targetState="AI-powered content suggestions and style recommendations" status="planned" />
+              </goals>
+            </releaseGoal>
+            <!-- May 2025 Goals -->
+            <releaseGoal id="edit-goals-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Goals" createdAt="2025-05-01T09:00:00Z">
+              <goals>
+                <goalItem id="edit-goal-1-may" description="Launch collaborative editing platform" currentState="Single-user editing with version conflicts" targetState="Real-time collaborative editing with conflict resolution" status="in-progress" />
+                <goalItem id="edit-goal-2-may" description="Integrate advanced plagiarism detection" currentState="Basic similarity checking" targetState="Advanced AI-powered plagiarism detection with detailed reports" status="planned" />
+                <goalItem id="edit-goal-3-may" description="Add version control and branching" currentState="Linear version history" targetState="Git-like branching with merge capabilities" status="planned" />
+              </goals>
+            </releaseGoal>
+          </releaseGoals>
+          <releasePlans>
+            <!-- April 2025 Plan -->
+            <releasePlan id="edit-plan-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Plan" createdAt="2025-04-01T09:00:00Z">
+              <items>
+                <planItem id="edit-plan-1-apr" title="Auto-Assignment Algorithm" description="Develop ML-based review assignment system" category="Enhancement" priority="High" source="Internal" owner="AI Team" status="in-progress" targetDate="2025-04-30T17:00:00Z" />
+                <planItem id="edit-plan-2-apr" title="Workflow Optimization Engine" description="Streamline editorial workflow processes" category="Improvement" priority="High" source="Customer" owner="Workflow Team" status="planned" targetDate="2025-04-25T17:00:00Z" />
+                <planItem id="edit-plan-3-apr" title="Content Suggestion AI" description="Implement AI-powered content recommendations" category="Enhancement" priority="Medium" source="Market" owner="AI Team" status="planned" targetDate="2025-04-28T17:00:00Z" />
+                <planItem id="edit-plan-4-apr" title="Performance Dashboard" description="Create editorial performance analytics dashboard" category="Enhancement" priority="Low" source="Internal" owner="Analytics Team" status="planned" targetDate="2025-04-20T17:00:00Z" />
+              </items>
+            </releasePlan>
+            <!-- May 2025 Plan -->
+            <releasePlan id="edit-plan-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Plan" createdAt="2025-05-01T09:00:00Z">
+              <items>
+                <planItem id="edit-plan-1-may" title="Collaborative Editor Implementation" description="Build real-time collaborative editing features" category="Enhancement" priority="High" source="Customer" owner="Collaboration Team" status="in-progress" targetDate="2025-05-31T17:00:00Z" />
+                <planItem id="edit-plan-2-may" title="Advanced Plagiarism Detection" description="Integrate AI-powered plagiarism detection system" category="Enhancement" priority="High" source="Regulatory" owner="Security Team" status="planned" targetDate="2025-05-28T17:00:00Z" />
+                <planItem id="edit-plan-3-may" title="Version Control System" description="Implement Git-like version control with branching" category="Enhancement" priority="Medium" source="Customer" owner="Version Team" status="planned" targetDate="2025-05-25T17:00:00Z" />
+                <planItem id="edit-plan-4-may" title="Mobile Editorial App" description="Develop mobile app for editorial review" category="Enhancement" priority="Medium" source="Market" owner="Mobile Team" status="planned" targetDate="2025-05-15T17:00:00Z" />
+                <planItem id="edit-plan-5-may" title="Integration Testing Suite" description="Comprehensive testing for all integrations" category="Improvement" priority="Low" source="Internal" owner="QA Team" status="planned" targetDate="2025-05-10T17:00:00Z" />
+              </items>
+            </releasePlan>
+          </releasePlans>
+        </product>
+
+        <product id="ace" name="ACE" description="AI-powered Content Enhancement platform">
+          <metrics>
+            <!-- April 2025 Metrics -->
+            <metric id="ace-accuracy-apr-2025" name="AI Suggestion Accuracy" value="87.3" unit="%" target="93" month="4" year="2025" status="at-risk" notes="Model training improvements needed" timestamp="2025-04-15T10:00:00Z" description="AI content suggestion accuracy rate" />
+            <metric id="ace-speed-apr-2025" name="Processing Speed" value="0.8" unit="seconds per page" target="0.5" month="4" year="2025" status="at-risk" notes="Performance optimization in progress" timestamp="2025-04-15T10:00:00Z" description="Content processing speed" />
+            <metric id="ace-adoption-apr-2025" name="User Adoption Rate" value="64" unit="%" target="80" month="4" year="2025" status="on-track" notes="Steady growth in user adoption" timestamp="2025-04-15T10:00:00Z" description="Platform adoption percentage" />
+            <!-- May 2025 Metrics -->
+            <metric id="ace-accuracy-may-2025" name="AI Suggestion Accuracy" value="91.6" unit="%" target="93" month="5" year="2025" status="on-track" notes="Model improvements showing results" timestamp="2025-05-15T10:00:00Z" description="AI content suggestion accuracy rate" />
+            <metric id="ace-speed-may-2025" name="Processing Speed" value="0.6" unit="seconds per page" target="0.5" month="5" year="2025" status="on-track" notes="Performance optimizations effective" timestamp="2025-05-15T10:00:00Z" description="Content processing speed" />
+            <metric id="ace-adoption-may-2025" name="User Adoption Rate" value="73" unit="%" target="80" month="5" year="2025" status="on-track" notes="Strong user growth continues" timestamp="2025-05-15T10:00:00Z" description="Platform adoption percentage" />
+          </metrics>
+          <releaseGoals>
+            <!-- April 2025 Goals -->
+            <releaseGoal id="ace-goals-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Goals" createdAt="2025-04-01T09:00:00Z">
+              <goals>
+                <goalItem id="ace-goal-1-apr" description="Improve AI model accuracy to 93%" currentState="87% accuracy with inconsistent suggestions" targetState="93% accuracy with contextually relevant suggestions" status="in-progress" />
+                <goalItem id="ace-goal-2-apr" description="Reduce processing time to under 0.5 seconds" currentState="0.8 seconds per page processing" targetState="0.5 seconds per page with parallel processing" status="planned" />
+                <goalItem id="ace-goal-3-apr" description="Expand language support to 15 languages" currentState="English and Spanish support only" targetState="15 major languages with native AI models" status="planned" />
+              </goals>
+            </releaseGoal>
+            <!-- May 2025 Goals -->
+            <releaseGoal id="ace-goals-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Goals" createdAt="2025-05-01T09:00:00Z">
+              <goals>
+                <goalItem id="ace-goal-1-may" description="Launch advanced sentiment analysis" currentState="Basic sentiment detection" targetState="Advanced sentiment analysis with emotional intelligence" status="in-progress" />
+                <goalItem id="ace-goal-2-may" description="Implement personalized content recommendations" currentState="Generic content suggestions" targetState="Personalized recommendations based on user behavior" status="planned" />
+                <goalItem id="ace-goal-3-may" description="Add real-time collaboration features" currentState="Single-user content enhancement" targetState="Multi-user collaboration with shared AI insights" status="planned" />
+              </goals>
+            </releaseGoal>
+          </releaseGoals>
+          <releasePlans>
+            <!-- April 2025 Plan -->
+            <releasePlan id="ace-plan-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Plan" createdAt="2025-04-01T09:00:00Z">
+              <items>
+                <planItem id="ace-plan-1-apr" title="AI Model Enhancement" description="Improve machine learning model accuracy and contextual understanding" category="Enhancement" priority="High" source="Customer" owner="AI Research Team" status="in-progress" targetDate="2025-04-30T17:00:00Z" />
+                <planItem id="ace-plan-2-apr" title="Performance Optimization" description="Implement parallel processing for faster content analysis" category="Improvement" priority="High" source="Internal" owner="Performance Team" status="planned" targetDate="2025-04-25T17:00:00Z" />
+                <planItem id="ace-plan-3-apr" title="Multi-language Support" description="Add support for 13 additional languages" category="Enhancement" priority="Medium" source="Market" owner="Localization Team" status="planned" targetDate="2025-04-28T17:00:00Z" />
+              </items>
+            </releasePlan>
+            <!-- May 2025 Plan -->
+            <releasePlan id="ace-plan-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Plan" createdAt="2025-05-01T09:00:00Z">
+              <items>
+                <planItem id="ace-plan-1-may" title="Sentiment Analysis Engine" description="Build advanced sentiment analysis with emotional intelligence" category="Enhancement" priority="High" source="Customer" owner="AI Research Team" status="in-progress" targetDate="2025-05-31T17:00:00Z" />
+                <planItem id="ace-plan-2-may" title="Personalization Framework" description="Implement user behavior-based content recommendations" category="Enhancement" priority="Medium" source="Market" owner="Personalization Team" status="planned" targetDate="2025-05-28T17:00:00Z" />
+                <planItem id="ace-plan-3-may" title="Collaborative AI Platform" description="Add multi-user collaboration with shared AI insights" category="Enhancement" priority="Medium" source="Customer" owner="Collaboration Team" status="planned" targetDate="2025-05-25T17:00:00Z" />
+                <planItem id="ace-plan-4-may" title="API Rate Limiting" description="Implement intelligent API rate limiting" category="Improvement" priority="Low" source="Internal" owner="API Team" status="planned" targetDate="2025-05-15T17:00:00Z" />
+              </items>
+            </releasePlan>
+          </releasePlans>
+        </product>
+
+        <product id="graphics-central" name="Graphics Central" description="Graphics processing and visual content management platform">
+          <metrics>
+            <!-- April 2025 Metrics -->
+            <metric id="graphics-speed-apr-2025" name="Image Processing Speed" value="2.3" unit="seconds per image" target="1.5" month="4" year="2025" status="at-risk" notes="Processing optimization needed" timestamp="2025-04-15T10:00:00Z" description="Image processing performance" />
+            <metric id="graphics-quality-apr-2025" name="Output Quality Score" value="91.2" unit="%" target="95" month="4" year="2025" status="on-track" notes="Quality improvements implemented" timestamp="2025-04-15T10:00:00Z" description="Processed image quality rating" />
+            <metric id="graphics-storage-apr-2025" name="Storage Efficiency" value="76" unit="%" target="85" month="4" year="2025" status="at-risk" notes="Storage optimization in progress" timestamp="2025-04-15T10:00:00Z" description="Storage space utilization" />
+            <!-- May 2025 Metrics -->
+            <metric id="graphics-speed-may-2025" name="Image Processing Speed" value="1.8" unit="seconds per image" target="1.5" month="5" year="2025" status="on-track" notes="Performance improvements working" timestamp="2025-05-15T10:00:00Z" description="Image processing performance" />
+            <metric id="graphics-quality-may-2025" name="Output Quality Score" value="94.1" unit="%" target="95" month="5" year="2025" status="on-track" notes="Quality nearly at target" timestamp="2025-05-15T10:00:00Z" description="Processed image quality rating" />
+            <metric id="graphics-storage-may-2025" name="Storage Efficiency" value="82" unit="%" target="85" month="5" year="2025" status="on-track" notes="Storage optimization effective" timestamp="2025-05-15T10:00:00Z" description="Storage space utilization" />
+          </metrics>
+          <releaseGoals>
+            <!-- April 2025 Goals -->
+            <releaseGoal id="graphics-goals-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Goals" createdAt="2025-04-01T09:00:00Z">
+              <goals>
+                <goalItem id="graphics-goal-1-apr" description="Optimize image processing pipeline" currentState="2.3 seconds per image processing time" targetState="1.5 seconds per image with maintained quality" status="in-progress" />
+                <goalItem id="graphics-goal-2-apr" description="Implement advanced compression algorithms" currentState="Standard compression with 76% efficiency" targetState="Advanced compression achieving 85% storage efficiency" status="planned" />
+                <goalItem id="graphics-goal-3-apr" description="Add vector graphics support" currentState="Raster image processing only" targetState="Full SVG and vector graphics processing support" status="planned" />
+              </goals>
+            </releaseGoal>
+            <!-- May 2025 Goals -->
+            <releaseGoal id="graphics-goals-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Goals" createdAt="2025-05-01T09:00:00Z">
+              <goals>
+                <goalItem id="graphics-goal-1-may" description="Launch AI-powered image enhancement" currentState="Manual image adjustment tools" targetState="AI-powered automatic enhancement with user controls" status="in-progress" />
+                <goalItem id="graphics-goal-2-may" description="Implement batch processing capabilities" currentState="Single image processing only" targetState="Batch processing with queue management" status="planned" />
+                <goalItem id="graphics-goal-3-may" description="Add collaborative review features" currentState="No collaboration tools" targetState="Multi-user review and approval workflow" status="planned" />
+              </goals>
+            </releaseGoal>
+          </releaseGoals>
+          <releasePlans>
+            <!-- April 2025 Plan -->
+            <releasePlan id="graphics-plan-apr-2025-v1" month="4" year="2025" version="1" name="April 2025 Plan" createdAt="2025-04-01T09:00:00Z">
+              <items>
+                <planItem id="graphics-plan-1-apr" title="Processing Pipeline Optimization" description="Optimize image processing algorithms for better performance" category="Improvement" priority="High" source="Internal" owner="Performance Team" status="in-progress" targetDate="2025-04-30T17:00:00Z" />
+                <planItem id="graphics-plan-2-apr" title="Advanced Compression Implementation" description="Implement next-generation compression algorithms" category="Enhancement" priority="Medium" source="Customer" owner="Compression Team" status="planned" targetDate="2025-04-25T17:00:00Z" />
+                <planItem id="graphics-plan-3-apr" title="Vector Graphics Engine" description="Build comprehensive vector graphics processing engine" category="Enhancement" priority="Medium" source="Market" owner="Graphics Team" status="planned" targetDate="2025-04-28T17:00:00Z" />
+              </items>
+            </releasePlan>
+            <!-- May 2025 Plan -->
+            <releasePlan id="graphics-plan-may-2025-v1" month="5" year="2025" version="1" name="May 2025 Plan" createdAt="2025-05-01T09:00:00Z">
+              <items>
+                <planItem id="graphics-plan-1-may" title="AI Enhancement Engine" description="Build AI-powered automatic image enhancement system" category="Enhancement" priority="High" source="Customer" owner="AI Team" status="in-progress" targetDate="2025-05-31T17:00:00Z" />
+                <planItem id="graphics-plan-2-may" title="Batch Processing System" description="Implement batch processing with queue management" category="Enhancement" priority="Medium" source="Customer" owner="Processing Team" status="planned" targetDate="2025-05-28T17:00:00Z" />
+                <planItem id="graphics-plan-3-may" title="Collaborative Review Platform" description="Add multi-user review and approval workflow" category="Enhancement" priority="Medium" source="Market" owner="Collaboration Team" status="planned" targetDate="2025-05-25T17:00:00Z" />
+                <planItem id="graphics-plan-4-may" title="Format Support Expansion" description="Add support for additional image formats" category="Enhancement" priority="Low" source="Customer" owner="Format Team" status="planned" targetDate="2025-05-15T17:00:00Z" />
+              </items>
+            </releasePlan>
+          </releasePlans>
+        </product>
+      </products>
+    </portfolio>
+  </portfolios>
+</productPortalConfig>
